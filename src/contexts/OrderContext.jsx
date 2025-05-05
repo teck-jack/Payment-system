@@ -20,7 +20,7 @@ export const OrderProvider = ({ children }) => {
     const fetchOrders = async () => {
       try {
         setLoading(true);
-        // Replace with your actual API endpoint
+        
         const response = await fetch('your-api-endpoint/orders');
         const data = await response.json();
         
